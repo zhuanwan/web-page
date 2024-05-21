@@ -2,8 +2,8 @@ import { defaultTheme } from "@vuepress/theme-default";
 import { defineUserConfig } from "vuepress/cli";
 import { viteBundler } from "@vuepress/bundler-vite";
 
-import fabric from "./config/fabric";
-import algorithm from "./config/algorithm";
+import fabric from "./sidebar/fabric";
+import algorithm from "./sidebar/algorithm";
 
 export default defineUserConfig({
   base: "/web-page/",
