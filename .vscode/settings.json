@@ -1,0 +1,10 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/docs/.vuepress/.cache/": true,
+    "**/docs/.vuepress/.temp/": true,
+    "**/docs/.vuepress/dist/": true,
+    "**/.gitignore": true
+  }
+}
