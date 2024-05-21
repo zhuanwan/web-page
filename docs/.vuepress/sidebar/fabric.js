@@ -54,7 +54,6 @@ export default [
     children: [
       "/fabric/源码/fabric.Canvas.md",
       "/fabric/源码/fabric.Circle.md",
-      "fabric类的继承体系",
       "/fabric/源码/fabric类的继承体系.md",
     ],
   },
