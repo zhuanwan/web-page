@@ -4,6 +4,7 @@ import { viteBundler } from "@vuepress/bundler-vite";
 
 import fabric from "./sidebar/fabric";
 import algorithm from "./sidebar/algorithm";
+import designPatterns from "./sidebar/design-patterns";
 
 export default defineUserConfig({
   base: "/web-page/",
@@ -16,10 +17,12 @@ export default defineUserConfig({
     logo: "/images/ya.jpg",
 
     navbar: [
+      { text: "设计模式", link: "/design-patterns/" },
       { text: "算法", link: "/algorithm/" },
       { text: "fabric", link: "/fabric/" },
     ],
     sidebar: {
+      "/design-patterns": designPatterns,
       "/algorithm": algorithm,
       "/fabric": fabric,
     },
